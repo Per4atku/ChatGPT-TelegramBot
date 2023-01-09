@@ -1,10 +1,11 @@
 # ChatGPT Telegram Bot
 ## Setup
-1) Choose Version1 or Version2 bot(Read more below)
-2) Open settings.py file and Insert _OpeanAI API Key_ or _ChatGPT_ Token in the CHATGPTTOKEN variable
-3) Insert Telegram Bot Token in the BOTTOKEN variable
-4) Change ChatGPT settings (optional)
-5) Start bot_v1.py or bot_v2.py
+1) Execute `pip install -r requirements.txt`
+2) Choose Version1 or Version2 bot(Read more below)
+3) Open settings.py file and Insert _OpeanAI API Key_ or _ChatGPT_ Token in the CHATGPTTOKEN variable
+4) Insert Telegram Bot Token in the BOTTOKEN variable
+5) Change ChatGPT settings (optional)
+6) Start bot_v1.py or bot_v2.py
 ## Version #1
 First version uses official OpenAI API. Without changing default settings, the results may not be the best. Here is a little guide for setting up the first version of the bot
 > Model – The model which will generate complection. You can see all models on https://beta.openai.com/playground
